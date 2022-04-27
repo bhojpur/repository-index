@@ -1,0 +1,9 @@
+name: "isomgr"
+description: "Bhojpur ISO official Repository"
+
+type: "http"
+enable: true
+cached: true
+priority: 1
+urls:
+- "https://raw.githubusercontent.com/bhojpur/iso-repo/gh-pages"
