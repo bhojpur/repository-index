@@ -1,0 +1,8 @@
+name: "bhojpur-desktop-stable"
+description: "Bhojpur OS desktop Repository (stable)"
+type: "docker"
+enable: true
+cached: true
+priority: 3
+urls:
+  - "quay.io/bhojpur/desktop"
