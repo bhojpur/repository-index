@@ -1,0 +1,8 @@
+name: "bhojpur-os-commons"
+description: "Bhojpur OS Commons repository"
+type: "docker"
+enable: true
+cached: true
+priority: 2
+urls:
+  - "quay.io/bhojpur/os-commons"
