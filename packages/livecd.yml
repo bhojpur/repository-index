@@ -1,0 +1,9 @@
+name: "livecd"
+description: "LiveCD Repository"
+
+type: "http"
+enable: true
+cached: true
+priority: 10
+urls:
+- "https://raw.githubusercontent.com/bhojpur/livecd-specs/gh-pages"
