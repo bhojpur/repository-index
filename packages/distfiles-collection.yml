@@ -1,0 +1,9 @@
+name: "distfiles-collection"
+description: "Bhojpur OS distfiles collection repository"
+
+type: "http"
+enable: true
+cached: true
+priority: 10
+urls:
+- "https://get.bhojpur.net/os/distfiles-collection"
