@@ -1,0 +1,11 @@
+image: "quay.io/bhojpur/extra:master"
+package_dir: /repo
+
+steps:
+- |
+   mkdir -p /repo/etc/bhojpur/repos.conf.d/ && \
+   mv ${PACKAGE_NAME}.yml /repo/etc/bhojpur/repos.conf.d/
+{{ if .Values.reference }}
+- BHOJPUR_ISO_NOLOCK=true isomgr install -yq utils/yq
+-  yq w -i /repo/etc/bhojpur/repos.conf.d/${PACKAGE_NAME}.yml "reference" "{{ ( index .Values.labels "package.version" ) }}" --style double
+{{ end }}
