@@ -1,0 +1,8 @@
+name: "bhojpur-kernel"
+description: "Bhojpur OS Kernel Repository"
+type: "docker"
+enable: true
+cached: true
+priority: 3
+urls:
+  - quay.io/bhojpur/kernel
