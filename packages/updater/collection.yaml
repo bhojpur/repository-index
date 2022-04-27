@@ -1,0 +1,22 @@
+packages:
+  - &base
+    category: "repo-updater"
+    name: "bhojpur-desktop-stable"
+    version: 0.1+15
+    requires:
+      - category: "repository"
+        name: "bhojpur-desktop-stable"
+        version: ">=0"
+      - category: "bhojpur"
+        name: "cli"
+        version: ">=0"
+  - !!merge <<: *base
+    name: "bhojpur-micro-stable"
+    version: "0.1"
+    requires:
+      - category: "repository"
+        name: "bhojpur-micro-stable"
+        version: ">=0"
+      - category: "bhojpur"
+        name: "cli"
+        version: ">=0"
