@@ -1,0 +1,8 @@
+name: "bhojpur-extra"
+description: "Bhojpur OS extra Repository"
+type: "docker"
+enable: true
+cached: true
+priority: 2
+urls:
+  - "quay.io/bhojpur/extra"
