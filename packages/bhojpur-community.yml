@@ -1,0 +1,9 @@
+name: "bhojpur-community"
+description: "Bhojpur OS community Repository"
+type: "docker"
+enable: true
+cached: true
+priority: 50
+urls:
+  #- "https://bhojpur.keybase.pub/desktop"
+  - "quay.io/bhojpur/desktop-community"
