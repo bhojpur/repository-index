@@ -1,0 +1,2 @@
+install:
+- opsutl config-update update --interactive=false -p /etc/bhojpur/repos.conf.d || true
